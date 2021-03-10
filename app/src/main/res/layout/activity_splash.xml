@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    tools:context=".SplashActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:text="Association Pain2Vie"
+            android:textAlignment="center"
+            android:textColor="#0F056B"
+            android:textSize="35sp"
+            android:fontFamily="@font/dancingscript_medium"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/pain2vie_logo" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:fadeScrollbars="true"
+            android:layout_gravity="center_horizontal"
+            android:indeterminate="true"
+            android:indeterminateTint="#0F056B"/>
+
+    </LinearLayout>
+
+</FrameLayout>

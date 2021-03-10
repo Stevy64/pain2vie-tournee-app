@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Pain2vieApp</string>
+
+    <string name="bottom_validator_register">Bonne tournée avec YHWH</string>
+    <string name="login">Valider</string>
+    <string name="password">Mot de passe</string>
+    <string name="e_mail">Identifiant</string>
+    <string name="tag">"Vous avez reçu gratuitement, donnez gratuitement." (Matthieu 10 : 8)</string>
+</resources>
