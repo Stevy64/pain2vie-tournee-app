@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFF"
+    android:background="@color/ic_launcher_background"
     tools:context=".SplashActivity">
 
     <LinearLayout
@@ -14,11 +14,11 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="67dp"
+            android:layout_height="65dp"
             android:text="Association Pain2Vie"
             android:textAlignment="center"
             android:textColor="#0F056B"
-            android:textSize="35sp"
+            android:textSize="30sp"
             android:fontFamily="@font/dancingscript_medium"/>
 
         <ImageView
@@ -30,7 +30,7 @@
         <ProgressBar
             android:id="@+id/progressBar"
             style="?android:attr/progressBarStyleHorizontal"
-            android:layout_width="200dp"
+            android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:fadeScrollbars="true"
             android:layout_gravity="center_horizontal"
